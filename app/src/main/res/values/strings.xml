@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ToDoMo</string>
+    <string name="let_s_finished">Let\'s Finished</string>
+    <string name="create_your_password">Create Your Password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="finish">Finish</string>
 </resources>
