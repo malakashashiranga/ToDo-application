@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ToDoMo</string>
+    <string name="get_started">Get Started</string>
+    <string name="already_have_and_account">Already have and account?</string>
+    <string name="sign_in_link">Sign in</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="next">Next</string>
+
 </resources>
