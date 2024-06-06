@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="purple">#3B135E</color>
+    <color name="prof_bar1">#43126D</color>
+    <color name="prof_bar2">#301579</color>
+    <color name="prof_bar3">#242867</color>
+
 </resources>
