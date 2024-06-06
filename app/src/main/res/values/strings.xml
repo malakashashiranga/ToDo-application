@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">ToDoMo</string>
+    <string name="profile">Profile</string>
+    <string name="welcome">Welcome</string>
+    <string name="john_doe">John Doe</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="change_names">Change names</string>
+    <string name="save_changes">Save changes</string>
+    <string name="email">Email</string>
+    <string name="new_email">New email</string>
+    <string name="password">Password</string>
+    <string name="save_password">Save password</string>
+    <string name="star_password">************</string>
+    <string name="new_password">New password</string>
+    <string name="change_password">Change password</string>
+    <string name="log_out">Log Out</string>
+    <string name="dev_info">Dev. info</string>
+    <string name="confirm_new_password">Confirm new password</string>
+
 </resources>
