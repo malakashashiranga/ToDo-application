@@ -18,7 +18,7 @@
             android:name=".sign_in_activity.SignInScreenActivity"
             android:exported="false" />
         <activity
-            android:name=".sign_in_activity.SignInScreenActivity"
+            android:name=".splash_activity.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
