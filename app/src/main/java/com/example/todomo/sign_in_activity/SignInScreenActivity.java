@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.todomo.R;
 
+import common_classes.text_gradient_utility.TextGradientUtility;
+
 
 public class SignInScreenActivity extends AppCompatActivity {
 
@@ -20,6 +22,9 @@ public class SignInScreenActivity extends AppCompatActivity {
 
         ProgressBar progressBar = findViewById(R.id.LoginSpinnerBar);
         progressBar.setVisibility(View.INVISIBLE);
+
+        final TextView loginGreet = findViewById(R.id.LoginGreet);
+        TextGradientUtility.applyGradientOnLayout(this, loginGreet);
 
         Button signButton = findViewById(R.id.SignButton);
 
