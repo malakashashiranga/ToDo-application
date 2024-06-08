@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
+import common_classes.button_clicking_animation.ButtonClickingAnimation;
+
 public class SignInScreenActionHandler {
 
     @SuppressLint("StaticFieldLeak")
@@ -28,6 +30,7 @@ public class SignInScreenActionHandler {
 
     public static void handleSignButtonClick(@NonNull Activity activity) {
         signButton.setOnClickListener(v -> {
+            ButtonClickingAnimation.animateButtonClick(signButton);
             progressBar.setVisibility(View.VISIBLE);
             Intent intent = new Intent(activity, SignInScreenActivity.class);
             activity.startActivity(intent);
