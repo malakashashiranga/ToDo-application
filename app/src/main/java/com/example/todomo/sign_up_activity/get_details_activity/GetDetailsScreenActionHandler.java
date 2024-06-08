@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
+import com.example.todomo.sign_in_activity.SignInScreenActivity;
+
 public class GetDetailsScreenActionHandler {
 
     @SuppressLint("StaticFieldLeak")
@@ -29,7 +31,7 @@ public class GetDetailsScreenActionHandler {
             progressBar.setVisibility(View.VISIBLE);
 
             new Handler().postDelayed(() -> {
-                Intent intent = new Intent(activity, GetDetailsScreenActivity.class);
+                Intent intent = new Intent(activity, SignInScreenActivity.class);
                 activity.startActivity(intent);
                 activity.finish();
             }, 1500);
@@ -41,7 +43,7 @@ public class GetDetailsScreenActionHandler {
             progressBar.setVisibility(View.VISIBLE);
 
             new Handler().postDelayed(() -> {
-                Intent intent = new Intent(activity, GetDetailsScreenActivity.class);
+                Intent intent = new Intent(activity, SignInScreenActivity.class);
                 activity.startActivity(intent);
                 activity.finish();
             }, 1000);
@@ -49,7 +51,7 @@ public class GetDetailsScreenActionHandler {
     }
 
     public static void handleBackButtonClick(@NonNull Activity activity) {
-        Intent intent = new Intent(activity, GetDetailsScreenActivity.class);
+        Intent intent = new Intent(activity, SignInScreenActivity.class);
         activity.startActivity(intent);
         activity.finish();
     }
