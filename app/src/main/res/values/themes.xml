@@ -1,9 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.ToDoMo" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/status_bar_purple</item>
     </style>
 
-    <style name="Theme.ToDoMo" parent="Base.Theme.ToDoMo" />
+    <style name="Theme.ToDoMo" parent="Base.Theme.ToDoMo">
+        <item name="android:statusBarColor">@color/status_bar_purple</item>
+    </style>
+
+    <style name="customStyles" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/status_bar_purple</item>
+    </style>
+
+
 </resources>
