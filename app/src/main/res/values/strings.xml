@@ -18,4 +18,14 @@
     <string name="confirm_new_password">Confirm new password</string>
     <string name="finish">Finish</string>
     <string name="create">Create</string>
+    <string name="new_event">New Event</string>
+    <string name="title">Title</string>
+    <string name="details">Details</string>
+    <string name="schedule_date">Schedule Date</string>
+    <string name="schedule_time">Schedule Time</string>
+    <string name="priority">Priority</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="save">Save</string>
 </resources>
