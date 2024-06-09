@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">ToDoMo</string>
+    <string name="hi_welcome">Hi, Welcome</string>
+    <string name="sign_in_with_your_n_email_and_password">Sign in with your\n email and password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string><string name="get_started">Get Started</string>
+    <string name="already_have_and_account">Already have and account?</string>
+    <string name="sign_in_link">Sign in</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="next">Next</string>
     <string name="let_s_finished">Let\'s Finished</string>
     <string name="create_your_password">Create Your Password</string>
     <string name="enter_new_password">Enter new password</string>
