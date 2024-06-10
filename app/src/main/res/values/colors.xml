@@ -13,4 +13,7 @@
     <color name="purple">#3B135E</color>
     <color name="event_button_gray">#D9D9D9</color>
     <color name="red">#ff3730</color>
+    <color name="prof_bar1">#43126D</color>
+    <color name="prof_bar2">#301579</color>
+    <color name="prof_bar3">#242867</color>
 </resources>
