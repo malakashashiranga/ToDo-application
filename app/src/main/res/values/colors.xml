@@ -11,5 +11,6 @@
     <color name="status_bar_purple">#8460A3</color>
     <color name="transparent_purple">#333B135E</color>
     <color name="purple">#3B135E</color>
-
+    <color name="event_button_gray">#D9D9D9</color>
+    <color name="red">#ff3730</color>
 </resources>
