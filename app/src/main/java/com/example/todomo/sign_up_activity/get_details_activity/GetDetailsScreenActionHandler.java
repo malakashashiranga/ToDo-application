@@ -12,8 +12,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
+import com.example.todomo.R;
 import com.example.todomo.sign_in_activity.SignInScreenActivity;
 
+import common_classes.clear_shared_preferences.ClearAllPreferencesDataUtility;
 import common_classes.view_utility.ViewUtility;
 
 public class GetDetailsScreenActionHandler {
@@ -47,6 +49,8 @@ public class GetDetailsScreenActionHandler {
                 enableAllViews();
                 progressBar.setVisibility(View.INVISIBLE);
 
+                ClearAllPreferencesDataUtility.clearSharedPreferences(activity, "AppProcesses");
+
                 Intent intent = new Intent(activity, SignInScreenActivity.class);
                 activity.startActivity(intent);
                 activity.finish();
@@ -67,8 +71,11 @@ public class GetDetailsScreenActionHandler {
     }
 
     public static void handleBackButtonClick(@NonNull Activity activity) {
+        ClearAllPreferencesDataUtility.clearSharedPreferences(activity, "AppProcesses");
+
         Intent intent = new Intent(activity, SignInScreenActivity.class);
         activity.startActivity(intent);
+        activity.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
         activity.finish();
     }
 
