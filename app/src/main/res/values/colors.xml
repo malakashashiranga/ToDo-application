@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="splash_purple">#BC9BFF</color>
+    <color name="main_app_gradient_purple">#3B135E</color>
+    <color name="main_app_gradient_dark_blue">#081541</color>
+    <color name="main_app_gradient_blue">#191D4C</color>
+    <color name="link_blue">#000AFF</color>
+    <color name="gray">#787878</color>
+    <color name="status_bar_purple">#8460A3</color>
+    <color name="transparent_purple">#333B135E</color>
     <color name="purple">#3B135E</color>
+    <color name="event_button_gray">#D9D9D9</color>
+    <color name="red">#ff3730</color>
     <color name="prof_bar1">#43126D</color>
     <color name="prof_bar2">#301579</color>
     <color name="prof_bar3">#242867</color>
-
 </resources>
