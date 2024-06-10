@@ -48,4 +48,12 @@
     <string name="log_out">Log Out</string>
     <string name="dev_info">Dev. info</string>
     <string name="confirm_new_password">Confirm new password</string>
+    <string name="dev_info">Dev. info</string>
+    <string name="name">Name :</string>
+    <string name="developer_info">Developer Info</string>
+    <string name="r_a_m_s_perera">R.A.M.S.Perera</string>
+    <string name="student_id">Student ID :</string>
+    <string name="_2021_t_01226">2021/T/01226</string>
+    <string name="release_version">Release version :</string>
+    <string name="_1_0">1.0</string>
 </resources>
