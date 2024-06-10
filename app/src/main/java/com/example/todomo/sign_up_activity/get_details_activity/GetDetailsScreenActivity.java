@@ -3,6 +3,7 @@ package com.example.todomo.sign_up_activity.get_details_activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -25,11 +26,14 @@ public class GetDetailsScreenActivity extends AppCompatActivity {
 
         TextView signInLinkTextView = findViewById(R.id.SigInLink);
 
-        GetDetailsScreenActionHandler.initializeViews(nextButton, signInLinkTextView);
+        EditText enterFirstNameEditText = findViewById(R.id.EnterFirstName);
+        EditText enterLastNameEditText = findViewById(R.id.EnterLastName);
+        EditText enterEmailEditText = findViewById(R.id.EnterEmail);
+
+        GetDetailsScreenActionHandler.initializeViews(nextButton, signInLinkTextView, enterFirstNameEditText, enterLastNameEditText, enterEmailEditText);
         GetDetailsScreenActionHandler.handleSignInLinkClick(this, progressBar);
         GetDetailsScreenActionHandler.handleNextButtonClick(this, progressBar);
 
-        // Handle back button press
         OnBackPressedCallback callback = new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {

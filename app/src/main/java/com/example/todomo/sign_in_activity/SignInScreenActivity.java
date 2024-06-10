@@ -3,6 +3,7 @@ package com.example.todomo.sign_in_activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -28,9 +29,12 @@ public class SignInScreenActivity extends AppCompatActivity {
 
         Button signButton = findViewById(R.id.SignButton);
 
+        EditText userEmailEditText = findViewById(R.id.LoginEmail);
+        EditText passwordEditText = findViewById(R.id.LoginPassword);
+
         TextView signUpLinkTextView = findViewById(R.id.SignUpLink);
 
-        SignInScreenActionHandler.initializeViews(signButton, signUpLinkTextView, progressBar);
+        SignInScreenActionHandler.initializeViews(signButton, userEmailEditText, passwordEditText, signUpLinkTextView, progressBar);
 
         SignInScreenActionHandler.handleSignButtonClick(this);
         SignInScreenActionHandler.handleSignUpLinkClick(this);
