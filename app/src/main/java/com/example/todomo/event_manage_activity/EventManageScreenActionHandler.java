@@ -9,6 +9,8 @@ import android.widget.ProgressBar;
 
 import androidx.annotation.NonNull;
 
+import com.example.todomo.home_activity.HomeScreenActivity;
+
 public class EventManageScreenActionHandler {
 
     @SuppressLint("StaticFieldLeak")
@@ -23,7 +25,7 @@ public class EventManageScreenActionHandler {
     }
 
     public static void handleBackButtonClick(@NonNull Activity activity) {
-        Intent intent = new Intent(activity, EventManageScreenActivity.class);
+        Intent intent = new Intent(activity, HomeScreenActivity.class);
         activity.startActivity(intent);
         activity.finish();
     }
@@ -31,7 +33,7 @@ public class EventManageScreenActionHandler {
     public static void handleEditSaveButton(@NonNull Activity activity, @NonNull ProgressBar progressBar) {
         editSaveButton.setOnClickListener(v -> {
             progressBar.setVisibility(View.VISIBLE);
-            Intent intent = new Intent(activity, EventManageScreenActivity.class);
+            Intent intent = new Intent(activity, HomeScreenActivity.class);
             activity.startActivity(intent);
             activity.finish();
         });
@@ -41,7 +43,7 @@ public class EventManageScreenActionHandler {
     public static void handleDeleteButton(@NonNull Activity activity, @NonNull ProgressBar progressBar) {
         deleteButton.setOnClickListener(v -> {
             progressBar.setVisibility(View.VISIBLE);
-            Intent intent = new Intent(activity, EventManageScreenActivity.class);
+            Intent intent = new Intent(activity, HomeScreenActivity.class);
             activity.startActivity(intent);
             activity.finish();
         });
