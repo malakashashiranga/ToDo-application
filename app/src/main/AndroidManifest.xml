@@ -15,7 +15,10 @@
         tools:ignore="LockedOrientationActivity"
         tools:targetApi="31">
         <activity
-            android:name=".new_event_activity.NewEventScreenActivity"
+            android:name=".event_manage_activity.EventManageScreenActivity"
+            android:exported="false"
+            android:theme="@style/customStyles" />
+        <activity            android:name=".new_event_activity.NewEventScreenActivity"
             android:exported="false"
             android:theme="@style/customStyles" />
         <activity
@@ -39,7 +42,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
