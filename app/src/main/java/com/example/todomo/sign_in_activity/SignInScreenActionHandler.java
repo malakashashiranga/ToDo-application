@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
+import com.example.todomo.home_activity.HomeScreenActivity;
 import com.example.todomo.sign_up_activity.get_details_activity.GetDetailsScreenActivity;
 
 import common_classes.button_clicking_animation.ButtonClickingAnimation;
@@ -34,7 +35,7 @@ public class SignInScreenActionHandler {
         signButton.setOnClickListener(v -> {
             ButtonClickingAnimation.animateButtonClick(signButton);
             progressBar.setVisibility(View.VISIBLE);
-            Intent intent = new Intent(activity, SignInScreenActivity.class);
+            Intent intent = new Intent(activity, HomeScreenActivity.class);
             activity.startActivity(intent);
         });
     }
