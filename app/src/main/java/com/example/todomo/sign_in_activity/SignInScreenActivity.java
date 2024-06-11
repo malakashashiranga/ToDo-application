@@ -38,6 +38,5 @@ public class SignInScreenActivity extends AppCompatActivity {
 
         SignInScreenActionHandler.handleSignButtonClick(this);
         SignInScreenActionHandler.handleSignUpLinkClick(this);
-
     }
 }
