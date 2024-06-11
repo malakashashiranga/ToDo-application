@@ -12,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.todomo.R;
 
+import common_classes.text_gradient_utility.TextGradientUtility;
+
 public class GetDetailsScreenActivity extends AppCompatActivity {
 
     @Override
@@ -21,6 +23,9 @@ public class GetDetailsScreenActivity extends AppCompatActivity {
 
         ProgressBar progressBar = findViewById(R.id.SignUpSpinnerBar);
         progressBar.setVisibility(View.INVISIBLE);
+
+        final TextView getDetailsGreet = findViewById(R.id.SignUpGetDetailsGreet);
+        TextGradientUtility.applyGradientOnLayout(this, getDetailsGreet);
 
         Button nextButton = findViewById(R.id.NextStepButton);
 
