@@ -16,4 +16,7 @@
     <color name="prof_bar1">#43126D</color>
     <color name="prof_bar2">#301579</color>
     <color name="prof_bar3">#242867</color>
+    <color name="seek_bar_green">#005e09</color>
+    <color name="seek_bar_blue">#3b52ff</color>
+    <color name="seek_bar_red">#ff1e12</color>
 </resources>
