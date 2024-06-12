@@ -112,12 +112,12 @@ public class SignInScreenActionHandler implements UserDetailsValidation.Firebase
     @Override
     public void onSuccess(String message) {
         String email = userEmailEditText.getText().toString().trim();
-        // Hide progress bar
         progressBar.setVisibility(View.INVISIBLE);
         enableAllViews();
 
         SharedPreferences sharedPreferences = signButton.getContext().getSharedPreferences("isLoggedInApp", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
+
         editor.putBoolean("isSuccessfully", true);
         editor.putString("userEmail", email);
         editor.apply();

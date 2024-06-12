@@ -21,7 +21,6 @@ import com.example.todomo.sign_up_activity.get_details_activity.GetDetailsScreen
 import com.example.todomo.sign_up_activity.store_user_data.StoreUserData;
 
 import common_classes.button_clicking_animation.ButtonClickingAnimation;
-import common_classes.clear_shared_preferences.ClearAllPreferencesDataUtility;
 import common_classes.network_checking.NetworkAvailability;
 import common_classes.view_utility.ViewUtility;
 
@@ -115,7 +114,6 @@ public class SetPasswordScreenActionHandler  implements StoreUserData.FirebaseCh
         enableAllViews();
 
         Toast.makeText(finishButton.getContext(), message, Toast.LENGTH_LONG).show();
-        ClearAllPreferencesDataUtility.clearSharedPreferences((Activity) finishButton.getContext(), "AppProcesses");
 
         Intent intent = new Intent(finishButton.getContext(), SignInScreenActivity.class);
         finishButton.getContext().startActivity(intent);

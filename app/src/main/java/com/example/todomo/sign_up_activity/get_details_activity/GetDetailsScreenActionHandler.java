@@ -22,7 +22,6 @@ import com.example.todomo.sign_up_activity.check_details_validity.CheckDetailsVa
 import com.example.todomo.sign_up_activity.set_password_activity.SetPasswordScreenActivity;
 
 import common_classes.button_clicking_animation.ButtonClickingAnimation;
-import common_classes.clear_shared_preferences.ClearAllPreferencesDataUtility;
 import common_classes.view_utility.ViewUtility;
 
 public class GetDetailsScreenActionHandler {
@@ -55,8 +54,6 @@ public class GetDetailsScreenActionHandler {
             new Handler().postDelayed(() -> {
                 enableAllViews();
                 progressBar.setVisibility(View.INVISIBLE);
-
-                ClearAllPreferencesDataUtility.clearSharedPreferences(activity, "AppProcesses");
 
                 Intent intent = new Intent(activity, SignInScreenActivity.class);
                 activity.startActivity(intent);
@@ -108,8 +105,6 @@ public class GetDetailsScreenActionHandler {
     }
 
     public static void handleBackButtonClick(@NonNull Activity activity) {
-        ClearAllPreferencesDataUtility.clearSharedPreferences(activity, "AppProcesses");
-
         Intent intent = new Intent(activity, SignInScreenActivity.class);
         activity.startActivity(intent);
         activity.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
