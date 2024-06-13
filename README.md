@@ -22,3 +22,60 @@
 
 - **User Profiles:** Implement user profiles where users can customize their personal information.
 
+
+### Installation
+
+1. Clone the repository: `git clone https://github.com/malakashashiranga/ToDo-application.git`
+2. Open the project in Android Studio.
+3. Build and run the application on your Android device or emulator.\
+
+
+## Screenshots
+
+Here are some screenshots of the ToDo application:
+
+### Splash Screen
+<img src="screenshots/splash.png" alt="Splash Screen" width="250"/>
+
+*The initial splash screen that appears when the application is launched.*
+
+### Sign In Screen
+<img src="screenshots/sign_in.png" alt="Sign In" width="250"/>
+
+*The sign-in screen where users can log in using their email and password.*
+
+### Sign Up - First Details
+<img src="screenshots/sign_first_details.png" alt="Sign Up First Details" width="250"/>
+
+*The first part of the sign-up process where users enter their basic details.*
+
+### Set Password
+<img src="screenshots/set_password.png" alt="Set Password" width="250"/>
+
+*The screen where users set their password during the sign-up process.*
+
+### Home Screen
+<img src="screenshots/home.png" alt="Home Screen" width="250"/>
+
+*The main screen displaying the list of todos and navigation options.*
+
+### Add New Event
+<img src="screenshots/new_event.png" alt="New Event" width="250"/>
+
+*The screen for adding a new task or event.*
+
+### Update Event
+<img src="screenshots/update_event.png" alt="Update Event" width="250"/>
+
+*The screen for updating an existing task or event.*
+
+### User Profile
+<img src="screenshots/profile.png" alt="User Profile" width="250"/>
+
+*The user profile screen where users can view and edit their personal information.*
+
+### Developer Info
+<img src="screenshots/developer.png" alt="Developer Info" width="250"/>
+
+*Information about the developer of the application.*
+

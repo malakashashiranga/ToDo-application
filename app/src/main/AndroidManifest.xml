@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,13 +13,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ToDoMo"
+        android:screenOrientation="portrait"
+        tools:ignore="LockedOrientationActivity"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".developer_activity.DeveloperScreenActivity"
+            android:exported="false"
+            android:theme="@style/customStyles" />
+        <activity
+            android:name=".profile_activity.ProfileScreenActivity"
+            android:exported="false"
+            android:theme="@style/customStyles" />
+        <activity
+            android:name=".event_manage_activity.EventManageScreenActivity"
+            android:exported="false"
+            android:theme="@style/customStyles" />
+        <activity            
+            android:name=".new_event_activity.NewEventScreenActivity"
+            android:exported="false"
+            android:theme="@style/customStyles" />
+        <activity
+            android:name=".home_activity.HomeScreenActivity"
+            android:exported="false"
+            android:theme="@style/customStyles" />
+        <activity
+            android:name=".sign_up_activity.set_password_activity.SetPasswordScreenActivity"
+            android:exported="false"
+            android:theme="@style/customStyles" />
+        <activity
+            android:name=".sign_up_activity.get_details_activity.GetDetailsScreenActivity"
+            android:exported="false"
+            android:theme="@style/customStyles" />
+        <activity
+            android:name=".sign_in_activity.SignInScreenActivity"
+            android:exported="false"
+            android:theme="@style/customStyles" />
+        <activity
+            android:name=".splash_activity.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
