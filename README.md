@@ -22,6 +22,7 @@
 
 - **User Profiles:** Implement user profiles where users can customize their personal information.
 
+
 ### Installation
 
 1. Clone the repository: `git clone https://github.com/malakashashiranga/ToDo-application.git`
@@ -77,3 +78,4 @@ Here are some screenshots of the ToDo application:
 <img src="screenshots/developer.png" alt="Developer Info" width="250"/>
 
 *Information about the developer of the application.*
+
