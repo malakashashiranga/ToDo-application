@@ -15,7 +15,6 @@ public class DeveloperScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_developer_screen);
 
-
         ImageButton backButton = findViewById(R.id.BackArrow);
 
         backButton.setOnClickListener(v -> DeveloperScreenActionHandler.handleBackButtonClick(this));
