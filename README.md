@@ -25,7 +25,10 @@
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/malakashashiranga/ToDo-application.git`
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/malakashashiranga/ToDo-application.git
+
 2. Open the project in Android Studio.
 3. Build and run the application on your Android device or emulator.
 
